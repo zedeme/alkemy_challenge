@@ -15,7 +15,7 @@
 
 ### **Install requirements**:
   - Linux and Windows:  
-   `pip install requirements.txt`
+   `pip install -r requirements.txt`
   - Create `.env` file for database with the following parameters: USER, PASSWORD, NAME, PORT, HOST
   
   
