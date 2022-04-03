@@ -1,0 +1,27 @@
+data_dictionary:
+  columns:
+    replaces: {'cod_area':'cod_tel',
+              'domicilio':'direccion',
+               'departamento': 'localidad', 
+               'nombre': 'nombre', 
+               'dirección': 'direccion', 
+               'teléfono': 'telefono',
+               'categoria':'categoría'
+               }
+    make_tables:
+      first_table: ["cod_loc", "idprovincia", "iddepartamento", "category", "fuente", "provincia", "pantallas", "localidad", "nombre", "direccion", "cp", "telefono", "mail", "web", "date_update"]
+      second_table: ["category", "fuente", "provincia", "date_update"]
+      third_table: ["provincia", "pantallas", "espacio_incaa", "butacas", "date_update"]
+
+  rows:
+    provincia:
+      replaces: {'Santa Fe' : 'Santa Fé',
+                 'Tierra del Fuego': 'Tierra del Fuego, Antártida e Islas del Atlántico Sur',
+                 'Neuquén\xa0': 'Neuquén'
+                 }
+    espacio_incaa:
+      replaces: {"SI": 1, "si": 1, "Si": 1}
+    cod_tel: 
+      replaces: {"s/d": "None"}
+    telefono: 
+      replaces: {"s/d": "None"}
