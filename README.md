@@ -6,10 +6,12 @@
   
  #### ***Create virtual enviroment (Optional)***  
  - Windows:  
-   `py -m venv venv`    
+   `py -m venv venv`
+   `path\to\venv\Scripts\activate.bat`   
    
   - Linux:  
   `python -m venv venv`
+  `source /path/to/venv/bin/activate`  
    
    *And execute the activate*
 
