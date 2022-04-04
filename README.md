@@ -12,8 +12,6 @@
   - Linux:  
   `python -m venv venv` &
   `source /path/to/venv/bin/activate`  
-   
-   *And execute the activate*
 
 ### **Install requirements**:
   - Linux and Windows:  
